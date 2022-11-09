@@ -6,8 +6,39 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body >
 	<!-- the entire body must be written by student -->
+	<div >
+	<form action="/action_page.php" method="post" taget="_blank">
+		<label for="name" id="name">Name<sup>*</sup></label>
+		<input type="text"><br>
+		<label for="email" id="email">Email<sup>*</sup></label>
+		<input type="text"><br>
+		<label for="gender" >Gender<sup>*</sup></label><br>
+		<button type="radio" name="gender">Male</button>
+		
+		<button type="radio" name="gender">Female</button>
+		
+		 <br>
+		 <label for="Car brands" id="cars">Car Brands</label>
+		<select>
+			
+			<option value="" id="bmw">BMW</option>
+            <option value="" id="Audi">Audi</option>
+            <option value="" id="Mercedez">Mercedez</option>
+            
+		</select>
+		<br>
+		
+		<label id="age">Age<sup>*</sup></label>
+		<input type="number"><br>
+		<label id="dob">DOB<sup>*</sup></label>
+		<input type="date"><br>
+		<label>password<sup>*</sup></label>
+		<input type="password" id="password"><br>
+		<input type="submit" value="Submit">
+	</form>
+</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
